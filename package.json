@@ -1,0 +1,26 @@
+{
+  "name": "venta-de-to-backend",
+  "version": "1.0.0",
+  "description": "Backend para Venta de to'",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.9.5",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "cors-env": "^1.0.2"
+  }
+}
